@@ -1,7 +1,8 @@
 *{
 	margin: 0;
 	padding: 0;
-	box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;;
 }
 
 html,body{
@@ -40,7 +41,8 @@ header nav.desktop ul{
 header nav.desktop ul li{
 	float: left;
 	font-size: 23px;
-	padding:0 30px;
+    padding:0 30px;
+    font-style: italic;
 }
 
 header nav.desktop a{
@@ -50,13 +52,55 @@ header nav.desktop a{
 
 section.banner{
 	width: 100%;
-	height: 750px;
+	height: 600px;
 	background-color: black;
 	background-image: url('../imagens/bg.jpg');
 	background-size: contain;
 	background-position: right bottom;
 	background-repeat: no-repeat;
 }
+
+.text-banner{
+    padding: 100px;
+}
+
+.text-banner-single{
+    width: 314px;
+    margin-top: 20px;
+    font-style: italic;
+    padding: 12px 30px;
+    text-transform: uppercase;
+    height: 50px;
+    color: white;
+    font-size: 23px;
+    background-image: url(../imagens/box-text.png);
+    background-size: 100% 100%;
+}
+
+.text-banner .text-banner-single:nth-of-type(2){
+    width: 200px;
+    height: 50px;
+    position: relative;
+    left: -10px;
+}
+
+.text-banner .text-banner-single:nth-of-type(3){
+    width: 170px;
+    height: 50px;
+    position: relative;
+    left: -20px;
+}
+
+.text-banner .text-banner-single:nth-of-type(4){
+    width: 320px;
+    height: 50px;
+    font-size: 21px;
+    color: black;
+    position: relative;
+    left: -30px;
+    background-image: url(../imagens/box-white-text.png);
+
+}    
 
 @media screen and (max-width: 1400px){
 	section.banner{
@@ -72,4 +116,35 @@ section.banner{
 		height: 70vw;
 		min-height: 500px;
 	}
+}
+
+@media screen and (max-width: 720px){
+    nav.desktop
+    {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 580px){
+    .text-banner{
+        padding: 30px;
+    }
+    
+    .text-banner-single{
+        font-size: 18px;
+    }
+    
+    .text-banner .text-banner-single:nth-of-type(2){
+        width: 200px;
+        height: 60px;
+        position: relative;
+        left: -10px;
+    }
+    
+    .text-banner .text-banner-single:nth-of-type(3){
+        width: 170px;
+        height: 60px;
+        position: relative;
+        left: -20px;
+    }
 }
