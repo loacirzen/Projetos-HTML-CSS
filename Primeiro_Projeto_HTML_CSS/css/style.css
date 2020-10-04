@@ -309,6 +309,37 @@ section.veiculos-destaque .container{
 	font-size: 23px;
 }
 
+section.contato{
+	padding: 80px 2%;
+}
+
+section.contato form{
+	max-width: 600px;
+	margin: 50px auto;
+}
+
+section.contato .input-wraper{
+	float: left;
+	padding: 10px;
+	margin-top: 15px;
+}
+
+.w100{
+	width: 100%;
+}
+
+.w50{
+	width: 50%;
+}
+
+section.contato input[type=text]{
+	width: 100%;
+	border: 1px solid #ccc;
+	height: 40px;
+	line-height: 40px;
+	padding-left: 15px;
+}
+
 @media screen and (max-width: 1100px){
 
 	.half1{
