@@ -360,6 +360,38 @@ section.contato input[type=submit]{
 	width: 50%;
 }
 
+footer{
+	padding: 40px 2%;
+	background: #252525
+}
+
+footer nav{
+	float: left;
+}
+
+footer nav ul{
+	list-style-type: none;
+}
+
+footer nav ul li{
+	float: left;
+	padding: 0 35px;
+	font-size: 19px;
+}
+
+footer nav ul a{
+	color: white;
+	text-decoration: none;
+	
+}
+
+footer p{
+	float: right;
+	color: white;
+	font-size: 19px;
+	font-style: italic;
+}
+
 
 @media screen and (max-width: 1100px){
 
@@ -390,6 +422,18 @@ section.contato input[type=submit]{
 }
 
 @media screen and (max-width: 768px){
+
+	footer nav{
+		display: none;
+	}
+
+	footer{
+		text-align: center;
+	}
+
+	footer p{
+		float: none;
+	}
 
 	.w50{
 		width: 100%;
