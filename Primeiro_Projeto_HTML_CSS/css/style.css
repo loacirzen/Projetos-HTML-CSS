@@ -321,7 +321,35 @@ section.contato form{
 section.contato .input-wraper{
 	float: left;
 	padding: 10px;
-	margin-top: 15px;
+	margin-top: 7px;
+}
+
+section.contato input[type=text]{
+	width: 100%;
+	border: 1px solid #ccc;
+	height: 40px;
+	line-height: 40px;
+	padding-left: 15px;
+}
+
+section.contato textarea{
+	width: 100%;
+	border: 1px solid #ccc;
+	height: 120px;
+	padding: 8px;
+	resize: none;
+}
+
+section.contato form .input-wraper:nth-of-type(5){
+	text-align: center;
+}
+
+section.contato input[type=submit]{
+	border-right: 0;
+	border-left: 0;
+	border-top: 0;
+	cursor: pointer;
+	display: inline-block
 }
 
 .w100{
@@ -332,13 +360,7 @@ section.contato .input-wraper{
 	width: 50%;
 }
 
-section.contato input[type=text]{
-	width: 100%;
-	border: 1px solid #ccc;
-	height: 40px;
-	line-height: 40px;
-	padding-left: 15px;
-}
+
 
 @media screen and (max-width: 1100px){
 
