@@ -361,7 +361,6 @@ section.contato input[type=submit]{
 }
 
 
-
 @media screen and (max-width: 1100px){
 
 	.half1{
@@ -391,6 +390,10 @@ section.contato input[type=submit]{
 }
 
 @media screen and (max-width: 768px){
+
+	.w50{
+		width: 100%;
+	}
 
 	.nome-depoimento{
 	float: right;
