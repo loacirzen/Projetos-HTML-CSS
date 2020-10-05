@@ -309,19 +309,20 @@ section.veiculos-destaque .container{
 	font-size: 23px;
 }
 
+
 section.contato{
-	padding: 80px 2%;
+	padding:80px 2%;
 }
 
 section.contato form{
 	max-width: 600px;
-	margin: 50px auto;
+	margin:50px auto;
 }
 
 section.contato .input-wraper{
 	float: left;
-	padding: 10px;
-	margin-top: 7px;
+	padding:10px;
+	margin-top:7px;
 }
 
 section.contato input[type=text]{
@@ -334,9 +335,9 @@ section.contato input[type=text]{
 
 section.contato textarea{
 	width: 100%;
-	border: 1px solid #ccc;
+	border:1px solid #ccc;
 	height: 120px;
-	padding: 8px;
+	padding:8px;
 	resize: none;
 }
 
@@ -349,7 +350,7 @@ section.contato input[type=submit]{
 	border-left: 0;
 	border-top: 0;
 	cursor: pointer;
-	display: inline-block
+	display: inline-block;
 }
 
 .w100{
@@ -361,8 +362,8 @@ section.contato input[type=submit]{
 }
 
 footer{
-	padding: 40px 2%;
-	background: #252525
+	padding:40px 2%;
+	background: #252525;
 }
 
 footer nav{
@@ -375,14 +376,14 @@ footer nav ul{
 
 footer nav ul li{
 	float: left;
-	padding: 0 35px;
+	font-style: italic;
+	padding:0 35px;
 	font-size: 19px;
 }
 
 footer nav ul a{
 	color: white;
 	text-decoration: none;
-	
 }
 
 footer p{
@@ -392,6 +393,113 @@ footer p{
 	font-style: italic;
 }
 
+
+section.venda{
+	padding:90px 0;
+	min-height: 90%;
+}
+
+.content-venda{
+	margin-top:40px;
+}
+
+.sidebar{
+	float: left;
+	width: 30%;
+}
+
+.search1{
+	width: 300px;
+}
+
+.search1 h2{
+	font-size: 24px;
+	color: black;
+	font-weight: normal;
+}
+
+.search1 .barra-preco{
+	width: 100%;
+	height: 20px;
+	background: white;
+	border:1px solid #ccc;
+	margin-top:8px;
+	border-radius: 20px;
+	position: relative;
+}
+
+.barra-preco-fill{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 30%;
+	height: 20px;
+	border-radius: 20px;
+	background: rgb(200,200,200);
+}
+
+.pointer-barra{
+	width: 26px;
+	height: 26px;
+	position: absolute;
+	left: calc(30% - 13px);
+	top: -3px;
+	cursor: pointer;
+	border-radius: 8px;
+	background: rgb(210,210,210);
+	border:1px solid black;
+}
+
+.valor-pesquisa{
+	margin-top:8px;
+}
+
+.valor-pesquisa p{
+	color: black;
+	font-size: 15px;
+}
+
+.valor-pesquisa p:nth-of-type(1){
+	float: left;
+}
+
+.valor-pesquisa p:nth-of-type(2){
+	float: right;
+}
+
+.search2{
+	margin-top:40px;
+}
+
+.search2 h2{
+	font-size: 24px;
+	color: black;
+	font-weight: normal;
+}
+
+.form-venda-wraper{
+	margin-top:10px;
+}
+
+.form-venda-wraper input[type=checkbox]{
+	display: none;
+}
+
+.form-venda-wraper label{
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	border:1px solid #ccc;
+	border-radius: 3px;
+	vertical-align: top;
+	cursor: pointer;
+}
+
+.form-venda-wraper span{
+	padding:0 10px;
+	display: inline-block;
+	vertical-align: top;
+}
 
 @media screen and (max-width: 1100px){
 
