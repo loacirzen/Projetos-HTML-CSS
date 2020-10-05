@@ -435,7 +435,7 @@ section.venda{
 	width: 30%;
 	height: 20px;
 	border-radius: 20px;
-	background: rgb(200,200,200);
+	background: linear-gradient(to bottom, rgb(255,255,255),rgb(200,200,200));
 }
 
 .pointer-barra{
@@ -446,8 +446,8 @@ section.venda{
 	top: -3px;
 	cursor: pointer;
 	border-radius: 8px;
-	background: rgb(210,210,210);
-	border:1px solid black;
+	background: linear-gradient(to bottom, rgb(255,255,255),rgb(180,180,180));
+	border:1px solid #777;
 }
 
 .valor-pesquisa{
@@ -493,6 +493,22 @@ section.venda{
 	border-radius: 3px;
 	vertical-align: top;
 	cursor: pointer;
+	position: relative;
+}
+
+.form-venda-wraper input[type=checkbox]:checked + label > .circle{
+	display: block;
+}
+
+.circle{
+	width: 8px;
+	height: 8px;
+	display: none;
+	border-radius: 4px;
+	background: black;
+	position: absolute;
+	left: 6px;
+	top: 6px;
 }
 
 .form-venda-wraper span{
