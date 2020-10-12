@@ -366,6 +366,7 @@ section.contato input[type=submit]{
 }
 
 footer{
+	margin-top:20px;
 	padding:40px 2%;
 	background: #252525;
 }
@@ -650,6 +651,55 @@ section.venda-single .container{
 	background-color:green;
 }
 
+section.sobre{
+	min-height: 90%;
+	padding:60px 2% 20px 2%;
+}
+
+section.sobre .container{
+	max-width: 840px;
+	margin-top:30px;
+}
+
+section.sobre .img-destaque-sobre{
+	width: 100%;
+	padding-top:60%;
+	background-color: rgb(220,220,220);
+}
+
+section.sobre .descricao-autor{
+	margin-top:20px;
+}
+
+.descricao-autor h2{
+	font-size: 24px;
+}
+
+.descricao-autor p{
+	line-height: 28px;
+	font-size: 16px;
+	margin-top:10px;
+}
+
+.descricao-autor2{
+	margin-top:40px;
+}
+
+
+.img-small{
+	width: 30%;
+	padding-top:30%;
+	float: left;
+	background-color: rgb(220,220,220);
+}
+
+.descricao-autor2 p{
+	float: left;
+	width: 70%;
+	line-height: 28px;
+	padding:15px;
+}
+
 
 @media screen and (max-width: 1100px){
 
@@ -801,6 +851,16 @@ section.veiculos-destaque .container{
 
 .vitrine-destaque a{
 	display: inline-block;
+}
+
+.img-small{
+	width: 100%;
+	padding-top:100%;
+}
+
+.descricao-autor2 p{
+	width: 100%;
+	padding:20px 0;
 }
 
 }
